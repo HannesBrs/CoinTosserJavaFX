@@ -1,0 +1,92 @@
+
+#bdp_backgroundBorderPane {
+    -fx-background-color: #ECFEFC;
+}
+
+.button {
+    -fx-background-color: #068E85;
+    -fx-background-radius: 12;
+    -fx-text-fill: #ECFEFC;
+}
+
+.label {
+    -fx-text-fill: #ECFEFC;
+}
+
+.button:hover {
+    -fx-background-color: #22069D;
+    -fx-text-fill: #ECFEFC;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-translate-y: 4;
+}
+
+#btn_reset:hover {
+    -fx-background-color: #96067B;
+}
+
+#txf_multipleTossesAmount {
+    -fx-background-color: #068E85;
+    -fx-background-radius: 12;
+    -fx-text-fill: #ECFEFC;
+}
+
+#grp_statisticsGrid {
+    -fx-background-color: #068E85;
+    -fx-background-radius: 12;
+}
+
+#lbl_result {
+    -fx-background-color: #96067B;
+    -fx-background-radius: 12;
+    -fx-font-size: 16;
+    -fx-font-weight: bolder;
+}
+
+#pan_statisticsBackgroundPane {
+    -fx-background-color: #22069D;
+    -fx-background-radius: 12;
+}
+
+#hbx_topButtonBar {
+    -fx-spacing: 20;
+}
+
+#vbx_statisticsBox {
+    -fx-spacing: 5;
+}
+
+.lbl_class_leftColumnLabels {
+    -fx-padding: 10;
+}
+
+.lbl_class_rightColumnLabels {
+    -fx-padding: 10;
+}
+
+#crl_coinCircle {
+    -fx-fill:  #FFD542;
+}
+
+#stp_coinStackPane:pressed {
+    -fx-translate-y: 10;
+}
+
+#stp_coinStackPane:hover {
+    -fx-cursor: hand;
+}
+
+#vbx_centerVBox {
+    -fx-spacing: 30;
+}
+
+#lbl_coinLabel {
+    -fx-font-weight: bolder;
+    -fx-font-size: 40;
+}
+
+#lbl_errorInvalidTossingAmount {
+    -fx-text-fill: #F6252F;
+}
